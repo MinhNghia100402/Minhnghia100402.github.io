@@ -1,0 +1,26 @@
+//config
+config ssh để mỗi lần push code k cần đăng nhập, có tác dụng map máy vs github
+Cái này chỉ làm 1 lần thôi các lần khác k cần làm
+Chạy lệnh "ssh-keygen"
+Vào user->.ssh -> lấy file .pub copy key r add vào github
+
+B1: CHọn ssh
+B2: Khởi tạo git: git init
+B3: add remote origin: git remote add origin .... link này tùy từng repo
+
+B4: git add . hoặc git add tenFolder: ở đây a add folder buoi1. Viết chữ đầu tiên của folder r nhấn tab nó sẽ ra, nếu chưa đúng cứ tab tiếp
+B5: commit
+B6: git push origin master
+
+//Các bài tập về nhà buổi sau chỉ cần 3 bước: B4->B6: k cần git init, k cần git add remote..aanh chỉ cho em cách để lấy link để nộp file html đc k ạ vì em lấy mà cahjy nó toàn ra 404
+Ok a đang lấy đây
+ nếu trong foder đó có nhiều file thì sao ạ
+
+//Đầu tiên e sẽ lấy tên repo của e là: Minhnghia100402.github.io
+Xong /tên folder
+Nó sẽ tự động nhận diện file có tên là index.html
+Còn các file khác thì sẽ phải viết lên nó tiếp: https://minhnghia100402.github.io/buoi1/TenFileKhac.html
+thế mỗi lần tạo repo mới thì mình phải set lại cái ssh ạ
+- k nhé, từ sau chỉ cần tạo repo xong làm lại 6 bước trên thôi, ssh add 1 lần thôi
+à vâng em cảm ơn ạ <3
+Ok e

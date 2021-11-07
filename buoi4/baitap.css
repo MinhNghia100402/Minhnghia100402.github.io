@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main {
+  background-color: rgb(70, 67, 67);
+  background-size: cover;
+  color: aliceblue;
+  padding: 50px 0px 150px 0px;
+}
+.width {
+  width: 90%;
+  margin-left: 5%;
+  align-content: center;
+}
+.font {
+  font-size: 150%;
+  font-family:Comic Sans MS;
+}
+.red {
+  color: red;
+}
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: space-around;
+}
+.list1 {
+  width: 15%;
+  padding: 0px 15px 0px 15px;
+}
+.list_1 {
+  width: 15%;
+  padding: 0px 15px 0px 15px;
+  border-left: white solid;
+}
+.list2 {
+  width: 35%;
+  padding: 0px 15px 0px 15px;
+  border-left: white solid;
+}
+.list2 img {
+  width: 100%;
+}
+.foot {
+  display: none;
+}
+@media screen and (max-width: 1024px) {
+    .main{
+        background-color: greenyellow;
+        color: black;
+    }
+    .content {
+    flex-wrap: wrap;
+  }
+  .list1 {
+    margin-top: 20px;
+    width: 35%;
+  }
+  .list2 {
+    margin-top: 20px;
+    width: 65%;
+    border-left: rgb(0, 0, 0) solid;
+  }
+  .list_1 {
+    margin-top: 20px;
+    width: 35%;
+    border-left: none;
+  }
+  .foot {
+    display: block;
+  }
+}
+@media  screen and (max-width:768px) {
+   .main{
+       background-color: rgb(11, 22, 126);
+       color: blanchedalmond;
+   }
+    .content {
+        flex-wrap: wrap;
+      }
+      .list1 {
+        margin-top: 20px;
+        width: 100%;
+      }
+      .list2 {
+        margin-top: 20px;
+        width: 100%;
+        border-left: none;
+      }
+      .list_1 {
+        margin-top: 20px;
+        width: 100%;
+        border-left: none;
+      }
+      .foot {
+        display: block;
+      }
+    }
+}

@@ -1,0 +1,140 @@
+.menu img {
+  width: 1366px;
+  height: 300px;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  line-height: 50px;
+  color: black;
+}
+.menu {
+  width: 100%;
+  margin-left: 50px;
+  height: 50px;
+  background-color: #fbfef5;
+  color: black;
+}
+li {
+  text-align: center;
+  width: 9%;
+  list-style: none;
+  float: left;
+  border: 1px solid black;
+}
+nav li a:hover {
+  display: block;
+  background-color: #00a551;
+  color: whitesmoke;
+  transition: 0.8s;
+}
+.main {
+  width: 96%;
+  margin-left: 2%;
+}
+.header img {
+  width: 100%;
+  height: 100px;
+}
+.header {
+}
+.sologan {
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  margin-left: 10%;
+}
+.right {
+  font-size: 300%;
+  margin-top: -150px;
+  color: blue;
+}
+.right a {
+  text-decoration: solid;
+  color: rgb(252, 44, 44);
+}
+.left {
+  font-size: 200%;
+  margin-top: -150px;
+  color: cyan;
+}
+.produce {
+  display: flex;
+  flex-direction: row;
+  border: solid;
+  margin-top: 50px;
+  height: 700px;
+}
+.item {
+  width: 90%;
+  border: solid;
+}
+.font {
+  background-color: blue;
+  color: white;
+  width: 100%;
+  height: 30px;
+}
+.box1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+.sanpham img {
+  width: 100%;
+}
+.sanpham {
+  width: 28%;
+  border: solid;
+  margin-left: 2%;
+}
+.lienhe {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+  }
+}
+.video {
+
+}
+.hang {
+    width: 90%;
+    margin-left: 5%;
+}
+.support input{
+    margin-top: 50px;
+}
+.spport img{
+    
+    width: 30%;
+    height: 100px;
+}
+.pink {
+    background-color: rgb(81, 255, 0);
+    color: rgb(252, 252, 252);
+    width: 100%;
+    text-align: center;
+}
+.spport {
+    text-align: center;
+    margin-top: 20px;
+    border: rgb(221, 48, 77) solid;
+    width: 80%;
+}
+.d{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 10%;
+}
+.spport li{
+    list-style: square;
+}
